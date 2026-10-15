@@ -1,0 +1,41 @@
+[
+  {
+    "model": "tasks_api.task",
+    "pk": 1,
+    "fields": {
+      "title": "Set up database",
+      "description": "Initialize SQLite and run migrations.",
+      "priority": "High",
+      "status": "Done",
+      "due_date": "2026-10-20T12:00:00Z",
+      "created_at": "2026-10-15T10:00:00Z",
+      "updated_at": "2026-10-15T10:00:00Z"
+    }
+  },
+  {
+    "model": "tasks_api.task",
+    "pk": 2,
+    "fields": {
+      "title": "Write API documentation",
+      "description": "Document the endpoints in README.",
+      "priority": "Medium",
+      "status": "In Progress",
+      "due_date": "2026-10-25T12:00:00Z",
+      "created_at": "2026-10-15T10:05:00Z",
+      "updated_at": "2026-10-15T10:05:00Z"
+    }
+  },
+  {
+    "model": "tasks_api.task",
+    "pk": 3,
+    "fields": {
+      "title": "Test filtering",
+      "description": "Ensure status and priority queries work.",
+      "priority": "Low",
+      "status": "Todo",
+      "due_date": "2026-10-30T12:00:00Z",
+      "created_at": "2026-10-15T10:10:00Z",
+      "updated_at": "2026-10-15T10:10:00Z"
+    }
+  }
+]
